@@ -14,8 +14,8 @@ $mail->SMTPDebug = SMTP::DEBUG_SERVER;                // Enable verbose debug ou
 $mail->isSMTP();                                      // Send using SMTP 
 $mail->Host = 'smtp.gmail.com';                       // Set the SMTP server to send through 
 $mail->SMTPAuth = true;                               // Enable SMTP authentication 
-$mail->Username = 'user@example.com';                 // SMTP username 
-$mail->Password = 'secret';                           // SMTP password 
+$mail->Username = 'mustufa1148@gmail.com;                 // SMTP username 
+$mail->Password = 'aseelking20002000';                           // SMTP password 
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged 
 $mail->Port = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above 
 
