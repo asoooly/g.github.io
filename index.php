@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST['send'])) {
 require_once 'mail.php';
-$mail->setFrom('from@example.com', 'Mailer');
-$mail->addAddress('joe@example.net', 'Joe User'); // Add a recipient
-$mail->Subject = 'Here is the subject';
+$mail->setFrom('mustufa1148@gmail.com', 'hooooo');
+$mail->addAddress('ak2825530@gmail.com‏');         // Add a recipient
+$mail->Subject = 'I wish this program to work';
 $mail->Body = 'This is the HTML message body <b>in bold!</b>';
 $mail->send();
 header("Location: index.php", true);
